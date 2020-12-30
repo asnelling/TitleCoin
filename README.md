@@ -31,12 +31,14 @@ Transfer ownership of the vehicle to `buyer`. The sender of the transaction may 
 ## Running the tests
 
 ```Shell
+# with coverage (supposed to be slower)
+npm run coverage
+
+# without
 npm test
 ```
 
 This will run tests on a fresh, local Ethereum network, compiling and deploying the contracts as necessary.
-
-TODO: add coverage
 
 ## Deployment
 
