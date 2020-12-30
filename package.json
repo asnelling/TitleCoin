@@ -1,0 +1,30 @@
+{
+  "name": "titletoken",
+  "version": "0.0.1",
+  "description": "Auto titles tokenized on the Ethereum blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test ./test/title.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asnelling/TitleToken.git"
+  },
+  "keywords": [
+    "ethereum",
+    "smart-contracts",
+    "cryptocurrency"
+  ],
+  "author": {
+    "name": "Addison Snelling",
+    "email": "addison@asnell.io"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/asnelling/TitleToken/issues"
+  },
+  "homepage": "https://github.com/asnelling/TitleToken#readme",
+  "devDependencies": {
+    "truffle": "^5.1.59"
+  }
+}
